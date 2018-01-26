@@ -1,0 +1,1 @@
+This is demo view file for Bantenprov\PdrbHargaDasar package using blade template
