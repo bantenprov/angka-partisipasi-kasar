@@ -86,7 +86,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/ap-kasar/ap-kasar01.json').then(response => {
+    axios.get('/json/bantenprov/ap-kasar/ap-kasar-01.json').then(response => {
       let i = 0;
       for(var first = 0; first < Object.keys(response.data[0].chartdata.grafik[0].tahun[0]).length; first++){
         this.pie.series[0].data[first].value = Object.values(response.data[0].chartdata.grafik[0].tahun[0])[first]

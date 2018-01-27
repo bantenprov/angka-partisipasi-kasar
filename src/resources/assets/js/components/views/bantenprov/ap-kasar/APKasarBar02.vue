@@ -59,7 +59,7 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/ap-kasar/ap-kasar02.json').then(response => {
+    axios.get('/json/bantenprov/ap-kasar/ap-kasar-02.json').then(response => {
       let obj_key = [];
 
       var datas = response.data;
