@@ -52,7 +52,7 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fa fa-bar-chart" aria-hidden="true"></i>
-              PDRB Harga Dasar Berdasarkan Wilayah
+              Angka Partisipasi Kasar Berdasarkan Wilayah
             </div>
             <div class="card-body">
               <ap-kasar-bar-01></ap-kasar-bar-01>
@@ -67,7 +67,7 @@
           <div class="card mb-3">
             <div class="card-header">
               <i class="fa fa-pie-chart" aria-hidden="true"></i>
-              PDRB Harga Dasar Berdasarkan Wilayah
+              Angka Partisipasi Kasar Berdasarkan Wilayah
             </div>
             <div class="card-body">
               <ap-kasar-pie-01></ap-kasar-pie-01>
@@ -83,7 +83,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-pie-chart" aria-hidden="true"></i>
-            PDRB Harga Dasar Berdasarkan Tahun
+            Angka Partisipasi Kasar Berdasarkan Tahun
           </div>
           <div class="card-body">
             <ap-kasar-pie-02></ap-kasar-pie-02>
@@ -96,7 +96,7 @@
         <div class="card mb-3">
           <div class="card-header">
             <i class="fa fa-bar-chart" aria-hidden="true"></i>
-            PDRB Harga Dasar Berdasarkan Tahun
+            Angka Partisipasi Kasar Berdasarkan Tahun
           </div>
           <div class="card-body">
             <ap-kasar-bar-02></ap-kasar-bar-02>
