@@ -1,8 +1,8 @@
 {
-    "name": "bantenprov/angka-harapan-kasar",
-    "description": "Angka harapan kasar",
+    "name": "bantenprov/angka-partisipasi-kasar",
+    "description": "Angka parisipasi kasar",
     "type": "library",
-    "homepage": "https://github.com/bantenprov/angka-harapan-kasar",
+    "homepage": "https://github.com/bantenprov/angka-partisipasi-kasar",
     "authors": [{
         "name": "bantenprov",
         "email": "developer.bantenprov@gmail.com",
@@ -10,9 +10,9 @@
     }],
     "license": "MIT",
     "support": {
-      "source": "https://github.com/bantenprov/angka-harapan-kasar,",
-      "issues": "https://github.com/bantenprov/angka-harapan-kasar/issues",
-      "wiki": "https://github.com/bantenprov/angka-harapan-kasar/wiki"
+      "source": "https://github.com/bantenprov/angka-partisipasi-kasar,",
+      "issues": "https://github.com/bantenprov/angka-partisipasi-kasar/issues",
+      "wiki": "https://github.com/bantenprov/angka-partisipasi-kasar/wiki"
     },
     "require": {
         "php": ">=5.6.4",
