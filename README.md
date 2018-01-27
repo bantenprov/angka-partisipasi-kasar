@@ -4,7 +4,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/build-status/master)
 
-Angka partisipasi kasar
+Angka partisipasi kasar (APK)
 
 ## install via composer
 
