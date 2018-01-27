@@ -1,0 +1,232 @@
+{
+    "2011": [
+      {
+        "SD/MI/Paket A": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 104.12
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 102.57
+          }
+        ],
+        "SMP/MTS/Paket B": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 104.12
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 102.57
+          }
+        ],
+        "SMA/SMK/MA/Paket C": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 60.1
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 64.9
+          }
+        ]
+      }
+    ],
+    "2012": [
+      {
+        "SD/MI/Paket A": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 104.79
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 87.96
+          }
+        ],
+        "SMP/MTS/Paket B": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 69.65
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 104.33
+          }
+        ],
+        "SMA/SMK/MA/Paket C": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 89.49
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 68.8
+          }
+        ]
+      }
+    ],
+    "2013": [
+      {
+        "SD/MI/Paket A": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 107.47
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 89.85
+          }
+        ],
+        "SMP/MTS/Paket B": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 63.32
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 107.71
+          }
+        ],
+        "SMA/SMK/MA/Paket C": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 85.96
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 66.61
+          }
+        ]
+      }
+    ],
+    "2014": [
+      {
+        "SD/MI/Paket A": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 109.89
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 89.55
+          }
+        ],
+        "SMP/MTS/Paket B": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 72.94
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 108.87
+          }
+        ],
+        "SMA/SMK/MA/Paket C": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 88.63
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 74.26
+          }
+        ]
+      }
+    ],
+    "2015": [
+      {
+        "SD/MI/Paket A": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 112.07
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 92.27
+          }
+        ],
+        "SMP/MTS/Paket B": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 69.76
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 110.5
+          }
+        ],
+        "SMA/SMK/MA/Paket C": [
+          {
+            "tingkat": "satu",
+            "wilayah": "Provinsi",
+            "name": "Banten",
+            "data": 91.17
+          },
+          {
+            "tingkat": "pusat",
+            "wilayah": "Negara",
+            "name": "Indonesia",
+            "data": 78.02
+          }
+        ]
+      }
+    ]
+  }
