@@ -14,10 +14,9 @@ $ composer require bantenprov/angka-partisipasi-kasar:dev-master
 ```
 - Latest release:
 
-
 ## download via github
-
-~~~bash
+~~~
+bash
 $ git clone https://github.com/bantenprov/angka-partisipasi-kasar.git
 ~~~
 
@@ -40,7 +39,6 @@ $ git clone https://github.com/bantenprov/angka-partisipasi-kasar.git
     Bantenprov\APKasar\APKasarServiceProvider::class,
 
 ```
-
 #### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
 ```javascript
@@ -95,7 +93,6 @@ children: [
 },
 
 ```
-
 #### Edit menu `resources/assets/js/menu.js`
 
 ```javascript
@@ -123,7 +120,6 @@ children: [
   ]
 },
 ```
-
 
 #### Tambahkan components `resources/assets/js/components.js` :
 
