@@ -3,11 +3,13 @@
     "description": "Angka parisipasi kasar (APK)",
     "type": "library",
     "homepage": "https://github.com/bantenprov/angka-partisipasi-kasar",
-    "authors": [{
+    "authors": [
+        {
         "name": "bantenprov",
         "email": "developer.bantenprov@gmail.com",
         "role": "developer"
-    }],
+    }
+    ],
     "license": "MIT",
     "support": {
       "source": "https://github.com/bantenprov/angka-partisipasi-kasar,",
