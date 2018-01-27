@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreatePdrbHargaDasarsTable extends Migration {
+class CreateAPKasarsTable extends Migration {
 
 	public function up()
 	{

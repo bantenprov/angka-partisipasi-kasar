@@ -3,12 +3,12 @@
 Route::group(['prefix' => 'ap-kasar', 'middleware' => ['web']], function() {
 
     $controllers = (object) [
-        'index'     => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@index',
-        'create'     => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@create',
-        'store'     => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@store',
-        'show'      => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@show',
-        'update'    => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@update',
-        'destroy'   => 'Bantenprov\PdrbHargaDasar\Http\Controllers\PdrbHargaDasarController@destroy',
+        'index'     => 'Bantenprov\APKasar\Http\Controllers\APKasarController@index',
+        'create'     => 'Bantenprov\APKasar\Http\Controllers\APKasarController@create',
+        'store'     => 'Bantenprov\APKasar\Http\Controllers\APKasarController@store',
+        'show'      => 'Bantenprov\APKasar\Http\Controllers\APKasarController@show',
+        'update'    => 'Bantenprov\APKasar\Http\Controllers\APKasarController@update',
+        'destroy'   => 'Bantenprov\APKasar\Http\Controllers\APKasarController@destroy',
     ];
 
     Route::get('/',$controllers->index)->name('ap-kasar.index');

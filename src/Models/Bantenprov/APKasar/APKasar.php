@@ -1,11 +1,11 @@
 <?php
 
-namespace Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar;
+namespace Bantenprov\APKasar\Models\Bantenprov\APKasar;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class PdrbHargaDasar extends Model
+class APKasar extends Model
 {
 
     protected $table = 'ap_kasars';
@@ -18,12 +18,12 @@ class PdrbHargaDasar extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\Province','id','province_id');
+        return $this->hasOne('Bantenprov\APKasar\Models\Bantenprov\APKasar\Province','id','province_id');
     }
 
     public function getRegency()
     {
-        return $this->hasOne('Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\Regency','id','regency_id');
+        return $this->hasOne('Bantenprov\APKasar\Models\Bantenprov\APKasar\Regency','id','regency_id');
     }
 
 }

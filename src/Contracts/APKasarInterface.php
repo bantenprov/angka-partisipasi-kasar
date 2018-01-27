@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Contracts;
+<?php namespace Bantenprov\APKasar\Contracts;
 
 /**
- * The PdrbHargaDasarInterface interface
+ * The APKasarInterface interface
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-interface PdrbHargaDasarInterface
+interface APKasarInterface
 {
     //
 }

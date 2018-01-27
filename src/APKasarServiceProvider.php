@@ -1,15 +1,15 @@
-<?php namespace Bantenprov\PdrbHargaDasar;
+<?php namespace Bantenprov\APKasar;
 
 use Illuminate\Support\ServiceProvider;
-use Bantenprov\PdrbHargaDasar\Console\Commands\PdrbHargaDasarCommand;
+use Bantenprov\APKasar\Console\Commands\APKasarCommand;
 
 /**
- * The PdrbHargaDasarServiceProvider class
+ * The APKasarServiceProvider class
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasarServiceProvider extends ServiceProvider
+class APKasarServiceProvider extends ServiceProvider
 {
 
     /**
@@ -44,11 +44,11 @@ class PdrbHargaDasarServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('ap-kasar', function ($app) {
-            return new PdrbHargaDasar;
+            return new APKasar;
         });
 
         $this->app->singleton('command.ap-kasar', function ($app) {
-            return new PdrbHargaDasarCommand;
+            return new APKasarCommand;
         });
 
         $this->commands('command.ap-kasar');

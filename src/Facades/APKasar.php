@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Facades;
+<?php namespace Bantenprov\APKasar\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * The PdrbHargaDasar facade.
+ * The APKasar facade.
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasar extends Facade
+class APKasar extends Facade
 {
     /**
      * Get the registered name of the component.

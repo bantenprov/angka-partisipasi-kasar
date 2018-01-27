@@ -1,1 +1,1 @@
-This is demo view file for Bantenprov\PdrbHargaDasar package using blade template
+This is demo view file for Bantenprov\APKasar package using blade template

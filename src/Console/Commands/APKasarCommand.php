@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Console\Commands;
+<?php namespace Bantenprov\APKasar\Console\Commands;
 
 use Illuminate\Console\Command;
 
 /**
- * The PdrbHargaDasarCommand class.
+ * The APKasarCommand class.
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasarCommand extends Command
+class APKasarCommand extends Command
 {
 
     /**
@@ -23,7 +23,7 @@ class PdrbHargaDasarCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Demo command for Bantenprov\PdrbHargaDasar package';
+    protected $description = 'Demo command for Bantenprov\APKasar package';
 
     /**
      * Create a new command instance.
@@ -42,6 +42,6 @@ class PdrbHargaDasarCommand extends Command
      */
     public function handle()
     {
-        $this->info('Welcome to command for Bantenprov\PdrbHargaDasar package');
+        $this->info('Welcome to command for Bantenprov\APKasar package');
     }
 }

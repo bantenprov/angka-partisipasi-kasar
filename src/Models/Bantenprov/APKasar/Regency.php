@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar;
+namespace Bantenprov\APKasar\Models\Bantenprov\APKasar;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -18,7 +18,7 @@ class Regency extends Model
 
     public function getProvince()
     {
-        return $this->hasOne('Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\Province','id','province_id');
+        return $this->hasOne('Bantenprov\APKasar\Models\Bantenprov\APKasar\Province','id','province_id');
     }
 
 }

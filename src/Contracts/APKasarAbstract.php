@@ -1,12 +1,12 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Contracts;
+<?php namespace Bantenprov\APKasar\Contracts;
 
 /**
- * The PdrbHargaDasarAbstract class
+ * The APKasarAbstract class
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-abstract class PdrbHargaDasarAbstract
+abstract class APKasarAbstract
 {
     //
 }

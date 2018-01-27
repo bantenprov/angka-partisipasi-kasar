@@ -1,6 +1,6 @@
 <?php
 
-namespace Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar;
+namespace Bantenprov\APKasar\Models\Bantenprov\APKasar;
 
 
 use Illuminate\Database\Eloquent\Model;

@@ -1,14 +1,14 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Exceptions;
+<?php namespace Bantenprov\APKasar\Exceptions;
 
 use Exception;
 
 /**
- * The PdrbHargaDasarException class.
+ * The APKasarException class.
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasarException extends Exception
+class APKasarException extends Exception
 {
     //
 }

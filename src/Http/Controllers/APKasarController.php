@@ -1,25 +1,25 @@
-<?php namespace Bantenprov\PdrbHargaDasar\Http\Controllers;
+<?php namespace Bantenprov\APKasar\Http\Controllers;
 
 /* require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\PdrbHargaDasar\Facades\PdrbHargaDasar;
+use Bantenprov\APKasar\Facades\APKasar;
 
 /* Models */
-use Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\PdrbHargaDasar as PdrbModel;
-use Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\Province;
-use Bantenprov\PdrbHargaDasar\Models\Bantenprov\PdrbHargaDasar\Regency;
+use Bantenprov\APKasar\Models\Bantenprov\APKasar\APKasar as PdrbModel;
+use Bantenprov\APKasar\Models\Bantenprov\APKasar\Province;
+use Bantenprov\APKasar\Models\Bantenprov\APKasar\Regency;
 
 /* etc */
 use Validator;
 
 /**
- * The PdrbHargaDasarController class.
+ * The APKasarController class.
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasarController extends Controller
+class APKasarController extends Controller
 {
 
     protected $province;

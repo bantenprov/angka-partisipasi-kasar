@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | The following config lines are used for development of package
-    | Bantenprov/PdrbHargaDasar
+    | Bantenprov/APKasar
     |
     */
 

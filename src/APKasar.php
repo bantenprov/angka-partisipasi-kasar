@@ -1,15 +1,15 @@
-<?php namespace Bantenprov\PdrbHargaDasar;
+<?php namespace Bantenprov\APKasar;
 
 /**
- * The PdrbHargaDasar class.
+ * The APKasar class.
  *
- * @package Bantenprov\PdrbHargaDasar
+ * @package Bantenprov\APKasar
  * @author  bantenprov <developer.bantenprov@gmail.com>
  */
-class PdrbHargaDasar
+class APKasar
 {
     public function welcome()
     {
-        return 'Welcome to Bantenprov\PdrbHargaDasar package';
+        return 'Welcome to Bantenprov\APKasar package';
     }
 }
