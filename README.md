@@ -1,8 +1,8 @@
 # angka-partisipasi-kasar
 
-[![Join the chat at https://gitter.im/ap-kasar/Lobby](https://badges.gitter.im/ap-kasar/Lobby.svg)](https://gitter.im/ap-kasar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/ap-kasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/ap-kasar/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/bantenprov/ap-kasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/ap-kasar/build-status/master)
+[![Join the chat at https://gitter.im/angka-partisipasi-kasar/Lobby](https://badges.gitter.im/angka-partisipasi-kasar/Lobby.svg)](https://gitter.im/angka-partisipasi-kasar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/build-status/master)
 
 Angka partisipasi kasar
 
