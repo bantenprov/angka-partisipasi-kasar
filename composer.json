@@ -1,6 +1,6 @@
 {
     "name": "bantenprov/angka-partisipasi-kasar",
-    "description": "Angka parisipasi kasar",
+    "description": "Angka parisipasi kasar (APK)",
     "type": "library",
     "homepage": "https://github.com/bantenprov/angka-partisipasi-kasar",
     "authors": [{
