@@ -137,7 +137,7 @@ Vue.component('echarts-ap-kasar-tahun', APKasarTahun);
 import APKasarAdminShow from './components/bantenprov/ap-kasar/APKasarAdmin.show.vue';
 Vue.component('admin-view-ap-kasar-tahun', APKasarAdminShow);
 
-//== Echarts APKasar
+//== Echarts Angka Partisipasi Kasar
 
 import APKasarBar01 from './components/views/bantenprov/ap-kasar/APKasarBar01.vue';
 Vue.component('ap-kasar-bar-01', APKasarBar01);
