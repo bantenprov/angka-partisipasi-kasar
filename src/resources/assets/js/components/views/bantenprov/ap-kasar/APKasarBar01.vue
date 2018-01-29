@@ -22,12 +22,16 @@ export default {
         tooltip: {
           show: true
         },
+        // xAxis: {
+        //   data: [{value:'0'},{value:'0'},{value:'0'}]
+        // },
         xAxis: {
-          data: ['0','0','0','0','0','0']
+          data:[]
         },
         yAxis: {},
         series: [{
           type: 'bar',
+          // data: [{value:0,name:'a'},{value:0,name:'a'},{value:0,name:'a'}],
           data: [],
           barWidth: 20,
           barGap: '-100%'
@@ -51,30 +55,49 @@ export default {
   mounted: function () {
     axios.get('/json/bantenprov/ap-kasar/ap-kasar-010.json').then(response => {
 
-      var e = response.data;
-      var get = e[0].chartdata.grafik[0];
+      let ke = 0;
 
+      var res = response.data;
+
+      /**
+      * response :
+      * console.log(res)
+      *
+      * xAxis
+      * console.log(res[0].xAxis.data)
+      * console.log(Object.values(res[0].xAxis.data))
+      *
+      * series data
+      * console.log(res[0].series[0].data)
+      *
+      * region
+      * console.log(res[0].xAxis.region)
+      *
+      * length
+      * console.log(res.length);
+      */
+
+      this.bar.xAxis.data = Object.values(res[0].xAxis.data);
+      this.bar.series[0].data = res[0].series[0].data;
+      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
+
+      // interval
       let i = 0;
 
-      this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[0].tahun[0]);
-      this.bar.title.text = response.data[0].chartdata.grafik[0].tingkat + ' ' +response.data[0].chartdata.grafik[0].name;
-
       setInterval(() => {
+
+        this.bar.xAxis.data = Object.values(res[i].xAxis.data);
+        this.bar.series[0].data = res[i].series[0].data;
+        this.bar.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[i].xAxis.yyyy;
+
         i++;
-        setTimeout(() => {
 
-          this.bar.xAxis.data = Object.keys(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.series[0].data = Object.values(response.data[0].chartdata.grafik[i].tahun[0]);
-          this.bar.title.text = response.data[0].chartdata.grafik[i].tingkat + ' ' + response.data[0].chartdata.grafik[i].name;
-
-        }, 10);
-
-        if(i ==  response.data[0].chartdata.grafik.length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 5000);
-      this.loading = false;
+
+      },4000);
 
     })
     .catch(function(error) {

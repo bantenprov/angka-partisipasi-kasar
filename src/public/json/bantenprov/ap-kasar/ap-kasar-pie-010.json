@@ -4,19 +4,14 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2018",
-      "data": [
-        "SD/MI/Paket A",
-        "SMP/MTS/Paket B",
-        "SMA/SMK/Paket C"
-      ]
+      "yyyy": "2018"
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          {"value":120,"name":"SD/MI/Paket A"},
+          {"value":200,"name":"SMP/MTS/Paket B"},
+          {"value":150,"name":"SMA/SMK/Paket C"}
         ]
       }
     ]
@@ -26,19 +21,14 @@
       "type": "category",
       "region": "Negara",
       "name": "Indonesia",
-      "yyyy": "2018",
-      "data": [
-        "SD/MI/Paket A",
-        "SMP/MTS/Paket F",
-        "SMA/SMK/Paket C"
-      ]
+      "yyyy": "2018"
     },
     "series": [
       {
         "data": [
-          50,
-          30,
-          350
+          {"value":50,"name":"SD/MI/Paket A"},
+          {"value":30,"name":"SMP/MTS/Paket B"},
+          {"value":350,"name":"SMA/SMK/Paket C"}
         ]
       }
     ]

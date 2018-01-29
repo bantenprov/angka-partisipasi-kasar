@@ -30,8 +30,8 @@ export default {
         },
         visualMap: {
           show: false,
-          min: 1000,
-          max: 80000,
+          min: 100,
+          max: 600,
           inRange: {
             colorLightness: [0, 1]
           }
@@ -41,14 +41,15 @@ export default {
             type:'pie',
             radius : '55%',
             center: ['50%', '50%'],
-            data:[
+            /*data:[
                 {},
                 {},
                 {},
                 {},
                 {},
                 {},
-            ].sort(function (a, b) { return a.value - b.value; }),
+            ].sort(function (a, b) { return a.value - b.value; }),*/
+            data:[].sort(function (a, b) { return a.value - b.value; }),
             roseType: 'radius',
             label: {
               normal: {
@@ -64,7 +65,7 @@ export default {
                 },
                 smooth: 0.2,
                 length: 10,
-                length2: 20
+                length2: 5
               }
             },
             itemStyle: {
@@ -86,35 +87,31 @@ export default {
     }
   },
   mounted: function () {
-    axios.get('/json/bantenprov/ap-kasar/ap-kasar-010.json').then(response => {
-      let i = 0;
-      for(var first = 0; first < Object.keys(response.data[0].chartdata.grafik[0].tahun[0]).length; first++){
-        this.pie.series[0].data[first].value = Object.values(response.data[0].chartdata.grafik[0].tahun[0])[first]
-        this.pie.series[0].data[first].name = Object.keys(response.data[0].chartdata.grafik[0].tahun[0])[first]
-        this.pie.title.text = response.data[0].chartdata.grafik[0].tingkat + ' ' + response.data[0].chartdata.grafik[0].name
-      }
+    axios.get('/json/bantenprov/ap-kasar/ap-kasar-pie-010.json').then(response => {
 
-      this.pie.visualMap.max = Math.max.apply(null,Object.values(response.data[0].chartdata.grafik[0].tahun[0])) + 2000
-      this.pie.visualMap.min = Math.min.apply(null,Object.values(response.data[0].chartdata.grafik[0].tahun[0])) - 2000
+      let ke = 0;
+
+      var res = response.data;
+
+      this.pie.series[0].data = res[0].series[0].data;
+      this.pie.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
+
+      // interval
+      let i = 0;
 
       setInterval(() => {
+
+        this.pie.series[0].data = res[i].series[0].data;
+        this.pie.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[0].xAxis.yyyy;
+
         i++;
-        setTimeout(() => {
-          for(var k = 0; k < Object.keys(response.data[0].chartdata.grafik[0].tahun[0]).length; k++){
-            this.pie.series[0].data[k].value = Object.values(response.data[0].chartdata.grafik[i].tahun[0])[k]
-            this.pie.series[0].data[k].name = Object.keys(response.data[0].chartdata.grafik[i].tahun[0])[k]
 
-            this.pie.title.text = response.data[0].chartdata.grafik[i].tingkat + ' ' + response.data[0].chartdata.grafik[i].name
-
-            this.pie.visualMap.max = Math.max.apply(null,Object.values(response.data[0].chartdata.grafik[i].tahun[0])) + 6000
-            this.pie.visualMap.min = Math.min.apply(null,Object.values(response.data[0].chartdata.grafik[i].tahun[0])) - 6000
-          }
-        }, 1000);
-
-        if(i ==  response.data[0].chartdata.grafik.length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 5000);
+
+      },4000);
 
     })
     .catch(function(error) {
