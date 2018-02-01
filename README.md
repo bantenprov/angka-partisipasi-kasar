@@ -39,6 +39,13 @@ $ git clone https://github.com/bantenprov/angka-partisipasi-kasar.git
     Bantenprov\APKasar\APKasarServiceProvider::class,
 
 ```
+
+#### Untuk publish component vue :
+
+```bash
+$ php artisan vendor:publish --tag=ap-kasar-assets
+$ php artisan vendor:publish --tag=ap-kasar-public
+```
 #### Tambahkan route di dalam route : `resources/assets/js/routes.js` :
 
 ```javascript
@@ -158,11 +165,4 @@ Vue.component('ap-kasar-pie-02', APKasarPie02);
 //== mini pie charts
 import APKasarPie03 from './components/views/bantenprov/ap-kasar/APKasarPie03.vue';
 Vue.component('ap-kasar-pie-03', APKasarPie03);
-```
-
-#### Untuk publish component vue :
-
-```bash
-$ php artisan vendor:publish --tag=ap-kasar-assets
-$ php artisan vendor:publish --tag=ap-kasar-public
 ```
