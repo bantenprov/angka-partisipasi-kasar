@@ -14,6 +14,11 @@ $ composer require bantenprov/angka-partisipasi-kasar:dev-master
 ```
 - Latest release:
 
+```bash
+$ composer require bantenprov/angka-partisipasi-kasar:v0.1.0
+```
+
+
 ## download via github
 ~~~
 bash
