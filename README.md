@@ -3,6 +3,12 @@
 [![Join the chat at https://gitter.im/angka-partisipasi-kasar/Lobby](https://badges.gitter.im/angka-partisipasi-kasar/Lobby.svg)](https://gitter.im/angka-partisipasi-kasar/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/angka-partisipasi-kasar/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/v/stable)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
+[![Total Downloads](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/downloads)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
+[![Latest Unstable Version](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/v/unstable)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
+[![License](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/license)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
+[![Monthly Downloads](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/d/monthly)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
+[![Daily Downloads](https://poser.pugx.org/bantenprov/angka-partisipasi-kasar/d/daily)](https://packagist.org/packages/bantenprov/angka-partisipasi-kasar)
 
 Angka partisipasi kasar (APK)
 
