@@ -4,14 +4,81 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2018"
+      "yyyy": "2011"
     },
     "series": [
       {
         "data": [
-          {"value":120,"name":"SD/MI/Paket A"},
-          {"value":200,"name":"SMP/MTS/Paket B"},
-          {"value":150,"name":"SMA/SMK/Paket C"}
+          {"value":104.12,"name":"SD/MI/Paket A"},
+          {"value":91.62,"name":"SMP/MTS/Paket B"},
+          {"value":60.10,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },{
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2012"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":104.79,"name":"SD/MI/Paket A"},
+          {"value":87.96,"name":"SMP/MTS/Paket B"},
+          {"value":69.65,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2013"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":107.47,"name":"SD/MI/Paket A"},
+          {"value":89.85,"name":"SMP/MTS/Paket B"},
+          {"value":63.32,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2014"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":109.89,"name":"SD/MI/Paket A"},
+          {"value":89.55,"name":"SMP/MTS/Paket B"},
+          {"value":72.94,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2015"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":112.07,"name":"SD/MI/Paket A"},
+          {"value":92.27,"name":"SMP/MTS/Paket B"},
+          {"value":69.76,"name":"SMA/SMK/Paket C"}
         ]
       }
     ]
@@ -21,14 +88,82 @@
       "type": "category",
       "region": "Negara",
       "name": "Indonesia",
-      "yyyy": "2018"
+      "yyyy": "2011"
     },
     "series": [
       {
         "data": [
-          {"value":50,"name":"SD/MI/Paket A"},
-          {"value":30,"name":"SMP/MTS/Paket B"},
-          {"value":350,"name":"SMA/SMK/Paket C"}
+          {"value":102.57,"name":"SD/MI/Paket A"},
+          {"value":89.83,"name":"SMP/MTS/Paket B"},
+          {"value":64.90,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "name": "Indonesia",
+      "yyyy": "2012"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":104.33,"name":"SD/MI/Paket A"},
+          {"value":89.49,"name":"SMP/MTS/Paket B"},
+          {"value":68.80,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "name": "Indonesia",
+      "yyyy": "2013"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":107.71,"name":"SD/MI/Paket A"},
+          {"value":85.96,"name":"SMP/MTS/Paket B"},
+          {"value":66.61,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "name": "Indonesia",
+      "yyyy": "2014"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":108.87,"name":"SD/MI/Paket A"},
+          {"value":88.63,"name":"SMP/MTS/Paket B"},
+          {"value":74.26,"name":"SMA/SMK/Paket C"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "name": "Indonesia",
+      "yyyy": "2015"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":110.5,"name":"SD/MI/Paket A"},
+          {"value":91.17,"name":"SMP/MTS/Paket B"},
+          {"value":78.02,"name":"SMA/SMK/Paket C"}
         ]
       }
     ]
