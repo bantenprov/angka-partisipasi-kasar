@@ -4,19 +4,20 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "yyyy": "2018",
+      "yyyy": "2011",
+      "title": "Angka Partisipasi Kasar Kabupaten Pandeglang 2012",
       "data": [
         "SD/MI/Paket A",
         "SMP/MTS/Paket B",
-        "SMA/SMK/Paket C"
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          100.49,
+          96.75,
+          62.55
         ]
       }
     ]
@@ -25,20 +26,504 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "name": "Indonesia",
-      "yyyy": "2018",
+      "title": "Angka Partisipasi Kasar Kabupaten Lebak 2012",
+      "yyyy": "2011",
       "data": [
         "SD/MI/Paket A",
-        "SMP/MTS/Paket F",
-        "SMA/SMK/Paket C"
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          50,
-          30,
-          350
+          102.21,
+          84.02,
+          48.55
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Tangerang 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          112.16,
+          83.28,
+          70.76
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Serang 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          103.16,
+          92.73,
+          57.22
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          99.99,
+          85.37,
+          88.24
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Cilegon 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          104.80,
+          96.18,
+          81.55
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Serang 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          102.29,
+          81.02,
+          62.65
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang Selatan 2012",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          101.56,
+          95.65,
+          80.29
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Pandeglang 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          109.76,
+          87.75,
+          61.89
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Lebak  2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          110.27,
+          74.38,
+          56.85
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Tangerang 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          109.49,
+          92.32,
+          61.24
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Serang 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          107.41,
+          91.82,
+          54.46
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          101.89,
+          97.64,
+          71.80
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Cilegon 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          105.12,
+          102.15,
+          77.68
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Serang 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          100.49,
+          83.99,
+          64.18
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang Selatan 2013",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          107.84,
+          85.68,
+          66.15
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Pandeglang 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          107.70,
+          82.24,
+          80.17
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Lebak 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          115.55,
+          86.31,
+          65.95
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Tangerang 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          107.19,
+          100.21,
+          73.49
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kabupaten Serang 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          109.66,
+          97.39,
+          67.38
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          104.19,
+          106.39,
+          79.69
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Cilegon 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          101.97,
+          113.96,
+          87.18
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Serang 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          113.23,
+          89.74,
+          70.43
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "category",
+      "region": "Negara",
+      "title": "Angka Partisipasi Kasar Kota Tangerang Selatan 2014",
+      "yyyy": "2011",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          109.63,
+          75.51,
+          92.31
         ]
       }
     ]

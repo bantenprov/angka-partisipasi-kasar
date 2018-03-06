@@ -58,8 +58,8 @@ export default {
           orient: 'horizontal',
           bottom: 30,
           x: 'center',
-          min: 100,
-          max: 600,
+          min: 1000,
+          max: 80000,
           text: ['High', 'Low'],
           calculable : false,
           inRange: {
@@ -80,7 +80,7 @@ export default {
           },
           label: {
             show: true,
-            fontSize: 8,
+            fontSize: 10,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -111,7 +111,7 @@ export default {
       var res = response.data;
 
       this.pie.series[0].data = res[0].series[0].data;
-      this.pie.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
+      this.pie.title.text = res[0].xAxis.title;
 
       // interval
       let i = 0;
@@ -119,14 +119,17 @@ export default {
       setInterval(() => {
 
         this.pie.series[0].data = res[i].series[0].data;
-        this.pie.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[0].xAxis.yyyy;
+        this.pie.title.text = res[i].xAxis.title;
 
         i++;
 
-        if(i == res.length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 4000);
+
+      },4000);
+
     })
     .catch(function(error) {
       // error

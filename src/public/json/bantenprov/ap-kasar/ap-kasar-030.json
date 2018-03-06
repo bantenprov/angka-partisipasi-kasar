@@ -1,126 +1,150 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "title": "SD/MI/Paket A Provinsi Banten",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2011",
+        "2012",
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          104.12,
+          104.79,
+          107.47,
+          109.89,
+          112.07
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "region": "Negara",
-      "name": "Indonesia",
-      "data": [
-        "2014",
-        "2015",
-        "2016"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          300,
-          450,
-          750
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "title": "SD/MI/Paket A Negara Indonesia",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2011",
+        "2012",
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          220,
-          270,
-          350
+          102.57,
+          104.33,
+          107.71,
+          108.87,
+          110.5
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
-      "region": "Negara",
-      "name": "Indonesia",
-      "data": [
-        "2014",
-        "2015",
-        "2016"
-      ]
-    },
-    "series": [
-      {
-        "data": [
-          380,
-          510,
-          690
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "title": "SMP/MTS/Paket B Provinsi Banten",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
+        "2011",
+        "2012",
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          270,
-          450
+          91.62,
+          87.96,
+          89.85,
+          89.55,
+          92.27
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
-      "region": "Negara",
-      "name": "Indonesia",
+      "title": "SMP/MTS/Paket B Negara Indonesia",
+      "region": "Provinsi",
+      "name": "Banten",
       "data": [
+        "2011",
+        "2012",
+        "2013",
         "2014",
-        "2015",
-        "2016"
+        "2015"
       ]
     },
     "series": [
       {
         "data": [
-          680,
-          710,
-          1990
+          89.83,
+          89.49,
+          85.96,
+          88.63,
+          91.17
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "SMA/SMK/Paket C Provinsi Banten",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          60.10,
+          69.65,
+          63.32,
+          72.94,
+          69.76
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "SMA/SMK/Paket C Negara Indonesia",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "2011",
+        "2012",
+        "2013",
+        "2014",
+        "2015"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          64.90,
+          68.80,
+          66.61,
+          74.26,
+          78.02
         ]
       }
     ]

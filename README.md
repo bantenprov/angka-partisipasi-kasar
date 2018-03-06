@@ -136,12 +136,7 @@ children: [
         }
   ]
 },
-//== ...
-        {
-          name: 'Angka partisipasi kasar',
-          link: '/admin/dashboard/ap-kasar',
-          icon: 'fa fa-angle-double-right'
-        },
+
 ```
 
 #### Tambahkan components `resources/assets/js/components.js` :

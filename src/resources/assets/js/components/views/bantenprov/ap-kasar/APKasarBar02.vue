@@ -58,7 +58,7 @@ export default {
           data: [],
           axisLabel: {
             show: true,
-            fontSize: 8,
+            fontSize: 10,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -90,7 +90,7 @@ export default {
           show: true,
           axisLabel: {
             show: true,
-            fontSize: 8,
+            fontSize: 10,
             fontWeight: 'normal',
             fontStyle: 'normal',
             color: '#fff'
@@ -123,11 +123,6 @@ export default {
           data: [
             {value:0, name:''},
             {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
-            {value:0, name:''},
             {value:0, name:''}
           ],
           barWidth: 30,
@@ -140,7 +135,7 @@ export default {
         label: {
           show: true,
           position: 'top',
-          fontSize: 8,
+          fontSize: 10,
           fontWeight: 'normal',
           fontStyle: 'normal',
           color: '#fff'
@@ -156,26 +151,26 @@ export default {
       var res = response.data;
 
       /**
-       * response :
-       * console.log(res)
-       *
-       * xAxis
-       * console.log(res[0].xAxis.data)
-       * console.log(Object.values(res[0].xAxis.data))
-       *
-       * series data
-       * console.log(res[0].series[0].data)
-       *
-       * region
-       * console.log(res[0].xAxis.region)
-       *
-       * length
-       * console.log(res.length);
-       */
+      * response :
+      * console.log(res)
+      *
+      * xAxis
+      * console.log(res[0].xAxis.data)
+      * console.log(Object.values(res[0].xAxis.data))
+      *
+      * series data
+      * console.log(res[0].series[0].data)
+      *
+      * region
+      * console.log(res[0].xAxis.region)
+      *
+      * length
+      * console.log(res.length);
+      */
 
       this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;
-      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.category;
+      this.bar.title.text = res[0].xAxis.title;
 
       // interval
       let i = 0;
@@ -184,14 +179,17 @@ export default {
 
         this.bar.xAxis.data = Object.values(res[i].xAxis.data);
         this.bar.series[0].data = res[i].series[0].data;
-        this.bar.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[i].xAxis.category;
+        this.bar.title.text = res[i].xAxis.title;
 
         i++;
 
-        if(i == res.length) {
+        if(i == res.length)
+        {
           i = 0;
         }
-      }, 4000);
+
+      },4000);
+
     })
     .catch(function(error) {
       // error

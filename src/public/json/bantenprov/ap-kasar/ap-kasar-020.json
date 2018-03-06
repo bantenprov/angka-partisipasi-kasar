@@ -1,126 +1,210 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "title": "Angka Partisipasi Kasar Provinsi Banten 2011",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          104.12,
+          91.62,
+          60.10
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
+      "title": "Angka Partisipasi Kasar Indonesia 2011",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          300,
-          450,
-          750
+          102.57,
+          89.83,
+          64.90
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "title": "Angka Partisipasi Kasar Provinsi Banten 2012",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          220,
-          270,
-          350
+          104.79,
+          87.96,
+          69.65
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
+      "title": "Angka Partisipasi Kasar Indonesia 2012",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          380,
-          510,
-          690
+          104.33,
+          89.49,
+          68.80
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "title": "Angka Partisipasi Kasar Provinsi Banten 2013",
       "region": "Provinsi",
       "name": "Banten",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          270,
-          450
+          107.47,
+          89.85,
+          63.32
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
+      "title": "Angka Partisipasi Kasar Indonesia 2013",
       "region": "Negara",
       "name": "Indonesia",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
       ]
     },
     "series": [
       {
         "data": [
-          680,
-          710,
-          1990
+          107.71,
+          85.96,
+          66.61
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Angka Partisipasi Kasar Provinsi Banten 2014",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          109.89,
+          89.55,
+          72.94
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Angka Partisipasi Kasar Indonesia 2014",
+      "region": "Negara",
+      "name": "Indonesia",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          108.87,
+          88.63,
+          74.26
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Angka Partisipasi Kasar Provinsi Banten 2015",
+      "region": "Provinsi",
+      "name": "Banten",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          112.07,
+          92.27,
+          69.76
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "title": "Angka Partisipasi Kasar Indonesia 2015",
+      "region": "Negara",
+      "name": "Indonesia",
+      "data": [
+        "SD/MI/Paket A",
+        "SMP/MTS/Paket B",
+        "SMA/SMK/MA/Paket C"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          110.5,
+          91.17,
+          78.02
         ]
       }
     ]
